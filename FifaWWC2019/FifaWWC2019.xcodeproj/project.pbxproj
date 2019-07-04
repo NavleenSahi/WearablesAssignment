@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F353C64222C8B4E300C31E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C64122C8B4E300C31E82 /* AppDelegate.swift */; };
+		F353C64422C8B4E300C31E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C64322C8B4E300C31E82 /* ViewController.swift */; };
+		F353C64722C8B4E300C31E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F353C64522C8B4E300C31E82 /* Main.storyboard */; };
+		F353C64922C8B4E600C31E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F353C64822C8B4E600C31E82 /* Assets.xcassets */; };
+		F353C64C22C8B4E600C31E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F353C64A22C8B4E600C31E82 /* LaunchScreen.storyboard */; };
+		F353C65122C8B4E600C31E82 /* FifaWWC2019 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F353C65022C8B4E600C31E82 /* FifaWWC2019 WatchKit App.app */; };
+		F353C65722C8B4E600C31E82 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F353C65522C8B4E600C31E82 /* Interface.storyboard */; };
+		F353C65922C8B4E800C31E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F353C65822C8B4E800C31E82 /* Assets.xcassets */; };
+		F353C66022C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F353C65F22C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F353C66522C8B4E800C31E82 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C66422C8B4E800C31E82 /* InterfaceController.swift */; };
+		F353C66722C8B4E800C31E82 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C66622C8B4E800C31E82 /* ExtensionDelegate.swift */; };
+		F353C66922C8B4E800C31E82 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C66822C8B4E800C31E82 /* NotificationController.swift */; };
+		F353C66B22C8B4E900C31E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F353C66A22C8B4E900C31E82 /* Assets.xcassets */; };
+		F353C67F22C8DDEB00C31E82 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C67E22C8DDEB00C31E82 /* Game.swift */; };
+		F353C68122C8DF0F00C31E82 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C68022C8DF0F00C31E82 /* APIHandler.swift */; };
+		F353C68322C8E15100C31E82 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C68222C8E15100C31E82 /* MapViewController.swift */; };
+		F353C68522C8E16300C31E82 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C68422C8E16300C31E82 /* ScheduleViewController.swift */; };
+		F353C68722CA54B300C31E82 /* PhoneScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C68622CA54B200C31E82 /* PhoneScheduleTableViewCell.swift */; };
+		F353C68B22CA834600C31E82 /* SubscribedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C68A22CA834600C31E82 /* SubscribedController.swift */; };
+		F3E9244A22CB6FB200CA9D8D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353C67E22C8DDEB00C31E82 /* Game.swift */; };
+		F3E9244C22CB7F2000CA9D8D /* GameRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E9244B22CB7F2000CA9D8D /* GameRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F353C65222C8B4E600C31E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F353C63622C8B4E300C31E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F353C64F22C8B4E600C31E82;
+			remoteInfo = "FifaWWC2019 WatchKit App";
+		};
+		F353C66122C8B4E800C31E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F353C63622C8B4E300C31E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F353C65E22C8B4E800C31E82;
+			remoteInfo = "FifaWWC2019 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F353C67322C8B4E900C31E82 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F353C66022C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F353C67722C8B4E900C31E82 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F353C65122C8B4E600C31E82 /* FifaWWC2019 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F353C63E22C8B4E300C31E82 /* FifaWWC2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifaWWC2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F353C64122C8B4E300C31E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F353C64322C8B4E300C31E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F353C64622C8B4E300C31E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F353C64822C8B4E600C31E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F353C64B22C8B4E600C31E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F353C64D22C8B4E600C31E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F353C65022C8B4E600C31E82 /* FifaWWC2019 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FifaWWC2019 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F353C65622C8B4E600C31E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F353C65822C8B4E800C31E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F353C65A22C8B4E800C31E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F353C65F22C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FifaWWC2019 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F353C66422C8B4E800C31E82 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F353C66622C8B4E800C31E82 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F353C66822C8B4E800C31E82 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F353C66A22C8B4E900C31E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F353C66C22C8B4E900C31E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F353C66D22C8B4E900C31E82 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F353C67E22C8DDEB00C31E82 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F353C68022C8DF0F00C31E82 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		F353C68222C8E15100C31E82 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F353C68422C8E16300C31E82 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		F353C68622CA54B200C31E82 /* PhoneScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		F353C68A22CA834600C31E82 /* SubscribedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribedController.swift; sourceTree = "<group>"; };
+		F3E9244B22CB7F2000CA9D8D /* GameRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5AFB800EF33D50326C050E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F353C63B22C8B4E300C31E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F353C65C22C8B4E800C31E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F6D9CECCE92FCEE3A354662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F353C63522C8B4E300C31E82 = {
+			isa = PBXGroup;
+			children = (
+				F353C64022C8B4E300C31E82 /* FifaWWC2019 */,
+				F353C65422C8B4E600C31E82 /* FifaWWC2019 WatchKit App */,
+				F353C66322C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension */,
+				F353C63F22C8B4E300C31E82 /* Products */,
+				2F6D9CECCE92FCEE3A354662 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F353C63F22C8B4E300C31E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F353C63E22C8B4E300C31E82 /* FifaWWC2019.app */,
+				F353C65022C8B4E600C31E82 /* FifaWWC2019 WatchKit App.app */,
+				F353C65F22C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F353C64022C8B4E300C31E82 /* FifaWWC2019 */ = {
+			isa = PBXGroup;
+			children = (
+				F353C64122C8B4E300C31E82 /* AppDelegate.swift */,
+				F353C64322C8B4E300C31E82 /* ViewController.swift */,
+				F353C64522C8B4E300C31E82 /* Main.storyboard */,
+				F353C64822C8B4E600C31E82 /* Assets.xcassets */,
+				F353C64A22C8B4E600C31E82 /* LaunchScreen.storyboard */,
+				F353C64D22C8B4E600C31E82 /* Info.plist */,
+				F353C67E22C8DDEB00C31E82 /* Game.swift */,
+				F353C68022C8DF0F00C31E82 /* APIHandler.swift */,
+				F353C68222C8E15100C31E82 /* MapViewController.swift */,
+				F353C68422C8E16300C31E82 /* ScheduleViewController.swift */,
+				F353C68622CA54B200C31E82 /* PhoneScheduleTableViewCell.swift */,
+			);
+			path = FifaWWC2019;
+			sourceTree = "<group>";
+		};
+		F353C65422C8B4E600C31E82 /* FifaWWC2019 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F353C65522C8B4E600C31E82 /* Interface.storyboard */,
+				F353C65822C8B4E800C31E82 /* Assets.xcassets */,
+				F353C65A22C8B4E800C31E82 /* Info.plist */,
+			);
+			path = "FifaWWC2019 WatchKit App";
+			sourceTree = "<group>";
+		};
+		F353C66322C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F353C66422C8B4E800C31E82 /* InterfaceController.swift */,
+				F353C66622C8B4E800C31E82 /* ExtensionDelegate.swift */,
+				F353C66822C8B4E800C31E82 /* NotificationController.swift */,
+				F353C66A22C8B4E900C31E82 /* Assets.xcassets */,
+				F353C66C22C8B4E900C31E82 /* Info.plist */,
+				F353C66D22C8B4E900C31E82 /* PushNotificationPayload.apns */,
+				F353C68A22CA834600C31E82 /* SubscribedController.swift */,
+				F3E9244B22CB7F2000CA9D8D /* GameRowController.swift */,
+			);
+			path = "FifaWWC2019 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F353C63D22C8B4E300C31E82 /* FifaWWC2019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F353C67822C8B4E900C31E82 /* Build configuration list for PBXNativeTarget "FifaWWC2019" */;
+			buildPhases = (
+				F353C63A22C8B4E300C31E82 /* Sources */,
+				F353C63B22C8B4E300C31E82 /* Frameworks */,
+				F353C63C22C8B4E300C31E82 /* Resources */,
+				F353C67722C8B4E900C31E82 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F353C65322C8B4E600C31E82 /* PBXTargetDependency */,
+			);
+			name = FifaWWC2019;
+			productName = FifaWWC2019;
+			productReference = F353C63E22C8B4E300C31E82 /* FifaWWC2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F353C64F22C8B4E600C31E82 /* FifaWWC2019 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F353C67422C8B4E900C31E82 /* Build configuration list for PBXNativeTarget "FifaWWC2019 WatchKit App" */;
+			buildPhases = (
+				F353C64E22C8B4E600C31E82 /* Resources */,
+				F353C67322C8B4E900C31E82 /* Embed App Extensions */,
+				A5AFB800EF33D50326C050E6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F353C66222C8B4E800C31E82 /* PBXTargetDependency */,
+			);
+			name = "FifaWWC2019 WatchKit App";
+			productName = "FifaWWC2019 WatchKit App";
+			productReference = F353C65022C8B4E600C31E82 /* FifaWWC2019 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F353C65E22C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F353C67022C8B4E900C31E82 /* Build configuration list for PBXNativeTarget "FifaWWC2019 WatchKit Extension" */;
+			buildPhases = (
+				F353C65B22C8B4E800C31E82 /* Sources */,
+				F353C65C22C8B4E800C31E82 /* Frameworks */,
+				F353C65D22C8B4E800C31E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FifaWWC2019 WatchKit Extension";
+			productName = "FifaWWC2019 WatchKit Extension";
+			productReference = F353C65F22C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F353C63622C8B4E300C31E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Inommation;
+				TargetAttributes = {
+					F353C63D22C8B4E300C31E82 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F353C64F22C8B4E600C31E82 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F353C65E22C8B4E800C31E82 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F353C63922C8B4E300C31E82 /* Build configuration list for PBXProject "FifaWWC2019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F353C63522C8B4E300C31E82;
+			productRefGroup = F353C63F22C8B4E300C31E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F353C63D22C8B4E300C31E82 /* FifaWWC2019 */,
+				F353C64F22C8B4E600C31E82 /* FifaWWC2019 WatchKit App */,
+				F353C65E22C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F353C63C22C8B4E300C31E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F353C64C22C8B4E600C31E82 /* LaunchScreen.storyboard in Resources */,
+				F353C64922C8B4E600C31E82 /* Assets.xcassets in Resources */,
+				F353C64722C8B4E300C31E82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F353C64E22C8B4E600C31E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F353C65922C8B4E800C31E82 /* Assets.xcassets in Resources */,
+				F353C65722C8B4E600C31E82 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F353C65D22C8B4E800C31E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F353C66B22C8B4E900C31E82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F353C63A22C8B4E300C31E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F353C64422C8B4E300C31E82 /* ViewController.swift in Sources */,
+				F353C67F22C8DDEB00C31E82 /* Game.swift in Sources */,
+				F353C64222C8B4E300C31E82 /* AppDelegate.swift in Sources */,
+				F353C68522C8E16300C31E82 /* ScheduleViewController.swift in Sources */,
+				F353C68322C8E15100C31E82 /* MapViewController.swift in Sources */,
+				F353C68122C8DF0F00C31E82 /* APIHandler.swift in Sources */,
+				F353C68722CA54B300C31E82 /* PhoneScheduleTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F353C65B22C8B4E800C31E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F353C68B22CA834600C31E82 /* SubscribedController.swift in Sources */,
+				F3E9244A22CB6FB200CA9D8D /* Game.swift in Sources */,
+				F353C66922C8B4E800C31E82 /* NotificationController.swift in Sources */,
+				F3E9244C22CB7F2000CA9D8D /* GameRowController.swift in Sources */,
+				F353C66722C8B4E800C31E82 /* ExtensionDelegate.swift in Sources */,
+				F353C66522C8B4E800C31E82 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F353C65322C8B4E600C31E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F353C64F22C8B4E600C31E82 /* FifaWWC2019 WatchKit App */;
+			targetProxy = F353C65222C8B4E600C31E82 /* PBXContainerItemProxy */;
+		};
+		F353C66222C8B4E800C31E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F353C65E22C8B4E800C31E82 /* FifaWWC2019 WatchKit Extension */;
+			targetProxy = F353C66122C8B4E800C31E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F353C64522C8B4E300C31E82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F353C64622C8B4E300C31E82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F353C64A22C8B4E600C31E82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F353C64B22C8B4E600C31E82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F353C65522C8B4E600C31E82 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F353C65622C8B4E600C31E82 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F353C66E22C8B4E900C31E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F353C66F22C8B4E900C31E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F353C67122C8B4E900C31E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDLUAL97D4;
+				INFOPLIST_FILE = "FifaWWC2019 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inommation.FifaWWC2019.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		F353C67222C8B4E900C31E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDLUAL97D4;
+				INFOPLIST_FILE = "FifaWWC2019 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inommation.FifaWWC2019.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		F353C67522C8B4E900C31E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDLUAL97D4;
+				IBSC_MODULE = FifaWWC2019_WatchKit_Extension;
+				INFOPLIST_FILE = "FifaWWC2019 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inommation.FifaWWC2019.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		F353C67622C8B4E900C31E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDLUAL97D4;
+				IBSC_MODULE = FifaWWC2019_WatchKit_Extension;
+				INFOPLIST_FILE = "FifaWWC2019 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inommation.FifaWWC2019.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		F353C67922C8B4E900C31E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDLUAL97D4;
+				INFOPLIST_FILE = FifaWWC2019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inommation.FifaWWC2019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F353C67A22C8B4E900C31E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KDLUAL97D4;
+				INFOPLIST_FILE = FifaWWC2019/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inommation.FifaWWC2019;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F353C63922C8B4E300C31E82 /* Build configuration list for PBXProject "FifaWWC2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F353C66E22C8B4E900C31E82 /* Debug */,
+				F353C66F22C8B4E900C31E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F353C67022C8B4E900C31E82 /* Build configuration list for PBXNativeTarget "FifaWWC2019 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F353C67122C8B4E900C31E82 /* Debug */,
+				F353C67222C8B4E900C31E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F353C67422C8B4E900C31E82 /* Build configuration list for PBXNativeTarget "FifaWWC2019 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F353C67522C8B4E900C31E82 /* Debug */,
+				F353C67622C8B4E900C31E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F353C67822C8B4E900C31E82 /* Build configuration list for PBXNativeTarget "FifaWWC2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F353C67922C8B4E900C31E82 /* Debug */,
+				F353C67A22C8B4E900C31E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F353C63622C8B4E300C31E82 /* Project object */;
+}
